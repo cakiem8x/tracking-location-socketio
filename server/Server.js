@@ -13,7 +13,7 @@ const fakeTracking = require('./FakeTracking');
 const ENV = process.env;
 
 const CONFIG = {
-	PORT: ENV.PORT
+	PORT: ENV.PORT || 4333
 }
 
 const app = express();
